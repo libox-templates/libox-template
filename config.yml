@@ -1,0 +1,8 @@
+ejsFiles:
+  - package.json
+  - README.md
+prompts:
+  - name: name
+    type: input
+    message: 模板名
+    default: "{{basename}}"

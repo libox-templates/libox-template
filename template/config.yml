@@ -1,0 +1,25 @@
+ejsFiles:
+  - package.json
+  - .umirc.ts
+  - LICENSE
+  - README.md
+  - README_EN.md
+  - src/index.ts
+prompts:
+  - name: name
+    type: input
+    message: 项目名
+    default: "{{basename}}"
+  - name: componentName
+    type: input
+    message: 组件名称
+    default: "{{name | pascal}}"
+  - name: description
+    type: input
+    message: 描述
+    default: "{{componentName}} 组件。"
+  - name: author
+    type: input
+    message: 作者
+    format: authorSplit
+    default: "{{defaultUser | authorJoin}}"
