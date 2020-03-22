@@ -7,3 +7,11 @@
 ```bash
 $ npx libox init <dir>
 ```
+
+## 特性
+
+- TypeScript
+- ESLint + Prettie
+- Jest
+- Dumi
+- father
